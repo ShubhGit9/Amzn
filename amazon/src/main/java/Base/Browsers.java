@@ -15,10 +15,4 @@ public class Browsers {
 		return driver;
 	}
 	
-	public WebDriver openFirefoxBrowser() {
-		System.setProperty("webdriver.gecko.driver","H:\\shubham\\automation\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-		return driver;
-	}
 }
