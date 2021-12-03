@@ -14,5 +14,5 @@ public class Browsers {
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		return driver;
 	}
-	
+	System.out.println("Git");
 }
